@@ -11,8 +11,8 @@ body {
 .container {
   max-width: 2000px;  /* Max width for the content */
   margin: 0 auto;  /* Center the container */
-  border-left: 60px solid #F1EBC8; /* Left border */
-  border-right: 60px solid #F1EBC8; /* Right border */
+  border-left: 120px solid #F1EBC8; /* Left border */
+  border-right: 120px solid #F1EBC8; /* Right border */
   background-color: transparent; /* Make the container transparent */
 }
 
