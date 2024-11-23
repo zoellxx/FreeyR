@@ -102,7 +102,7 @@ html, body {
 .info-boxes {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 30px;
   margin-top: 60px;
 }
 
@@ -119,8 +119,8 @@ html, body {
 .info-box img {
   max-width: 100%;
   height: auto;
-  margin-top: 10px;
-  border-radius: 5px;
+  margin-top: 30px;
+  border-radius: 10px;
 }
 
 /* Footer */
@@ -128,13 +128,13 @@ footer {
   background-color: #654B37;
   color: #F1EBC8;
   text-align: center;
-  padding: 20px;
+  padding: 60px;
   margin-top: auto; /* Ensures the footer stays at the bottom */
   box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
 }
 
 footer a {
-  color: #FACB74;
+  color: #654B37;
   text-decoration: none;
 }
 
