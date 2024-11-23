@@ -12,8 +12,8 @@ body {
   max-width: 1200px;  /* Max width for the content */
   margin: 0 auto;  /* Center the container */
   padding: 0 2rem;  /* Add padding to the left and right */
-  border-left: 5px solid #F1EBC8; /* Left border */
-  border-right: 5px solid #F1EBC8; /* Right border */
+  border-left: 60px solid #F1EBC8; /* Left border */
+  border-right: 60px solid #F1EBC8; /* Right border */
 }
 
 /* Header Section */
@@ -35,7 +35,7 @@ header .logo {
 }
 
 header .smaller-title {
-  font-size: 3.6em;
+  font-size: 2.4em;
   font-weight: bold;
   font-style: italic;
   margin-top: 20px;
@@ -45,7 +45,7 @@ nav a {
   color: #FACB74;
   text-decoration: none;
   margin: 0 1rem;
-  font-size: 2em;
+  font-size: 1.2em;
 }
 
 nav a:hover {
@@ -54,7 +54,7 @@ nav a:hover {
 
 /* Section Styles */
 section {
-  padding: 2rem;
+  padding: 2.4rem;
   border-bottom: 1px solid #20C6BD;
   background-color: #F1EBC8;
 }
@@ -65,7 +65,7 @@ section h2 {
 }
 
 section p {
-  font-size: 1.1em;
+  font-size: 2.4em;
   line-height: 1.6;
   color: #654B37;
 }
