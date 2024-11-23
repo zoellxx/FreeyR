@@ -7,6 +7,15 @@ body {
   color: #654B37;
 }
 
+/* Main Container */
+.container {
+  max-width: 1200px;  /* Max width for the content */
+  margin: 0 auto;  /* Center the container */
+  padding: 0 2rem;  /* Add padding to the left and right */
+  border-left: 5px solid #F1EBC8; /* Left border */
+  border-right: 5px solid #F1EBC8; /* Right border */
+}
+
 /* Header Section */
 header {
   background-color: #E17A55;
@@ -45,9 +54,9 @@ nav a:hover {
 
 /* Section Styles */
 section {
-  padding: 1rem;
+  padding: 2rem;
   border-bottom: 1px solid #20C6BD;
-  background-color: #F1EBC8
+  background-color: #F1EBC8;
 }
 
 section h2 {
@@ -88,4 +97,3 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
-
