@@ -73,8 +73,8 @@ html, body {
   margin-top: 60px; /* Push down to account for fixed header */
   text-align: center;
   padding: 60px;
-  background-color: #654B37;
-  color: #F1EBC8;
+  background-color: #E17A55;
+  color: #F1EBC8
 }
 
 .brand-image {
@@ -84,6 +84,7 @@ html, body {
 
 .smaller-title-1 {
   margin-top: 60px;
+  padding: 60px;
   color: #F1EBC8;
   font-size: 36px;
   line-height: 1.5;
@@ -97,6 +98,8 @@ html, body {
 #about {
   padding: 60px;
   text-align: center;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 .info-boxes {
