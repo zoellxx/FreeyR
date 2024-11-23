@@ -1,0 +1,7 @@
+my-website/
+│
+├── index.html         # Main HTML file
+├── style.css          # CSS file for styling
+├── script.js          # Optional JavaScript file
+└── assets/            # Folder for images or additional resources
+    └── logo.png
