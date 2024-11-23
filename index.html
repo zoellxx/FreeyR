@@ -7,57 +7,59 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Header Section -->
-  <header>
-    <div class="logo-container">
-      <!-- Logo -->
+  <!-- Header Bar -->
+  <header class="header-bar">
+    <div class="header-left">
       <img src="logo.png" alt="Logo" class="logo">
-      <!-- Smaller Title -->
-      <h2 class="smaller-title-1">
-        <span>Analyzing Financial Security</span><br>
-        <span>Through Understanding Food Insecurity</span><br>
-        <span>Due to the Impacts of Climate Change</span>
-      </h2>
     </div>
-    <nav>
-      <a href="#about">FreeyR Initiative</a>
-      <a href="#map">Interactive Map</a>
-      <a href="#contact">Contact</a>
+    <nav class="header-nav">
+      <a href="#about">About</a>
+      <a href="map.html">Map</a>
+      <a href="contact.html">Contact</a>
     </nav>
   </header>
-  
-  <!-- Main Container -->
-  <div class="container">
 
+  <!-- Main Header Section -->
+  <div class="main-header">
+    <img src="brand-image.jpg" alt="Brand Image" class="brand-image">
+    <h2 class="smaller-title-1">
+      <span>Analyzing Financial Security</span><br>
+      <span>Through Understanding Food Insecurity</span><br>
+      <span>Due to the Impacts of Climate Change</span>
+    </h2>
+  </div>
+
+  <!-- Main Content Container -->
+  <div class="container">
     <!-- About Section -->
     <section id="about">
       <h2>FreeyR Initiative</h2>
-      <p>Applying geospatial intelligence for agricultural monitoring to assess food insecurity due to climate change and thus quanity the financial security of impacted nation states.</p>
-    </section>
-
-    <!-- Map Section -->
-    <section id="map">
-      <h2>Interactive Map</h2>
-      <!-- Embed the interactive map -->
-      <div class="map-container">
-        <iframe src="your-map-file.html" frameborder="0" allowfullscreen></iframe>
+      <p>Applying geospatial intelligence for agricultural monitoring to assess food insecurity due to climate change and thus quantify the financial security of impacted nation-states.</p>
+      <div class="info-boxes">
+        <div class="info-box">
+          <h3>Box 1 Title</h3>
+          <p>Box 1 content goes here.</p>
+          <img src="box1-image.jpg" alt="Box 1 Image">
+        </div>
+        <div class="info-box">
+          <h3>Box 2 Title</h3>
+          <p>Box 2 content goes here.</p>
+          <img src="box2-image.jpg" alt="Box 2 Image">
+        </div>
+        <div class="info-box">
+          <h3>Box 3 Title</h3>
+          <p>Box 3 content goes here.</p>
+          <img src="box3-image.jpg" alt="Box 3 Image">
+        </div>
       </div>
     </section>
+  </div>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>For additional inquiries, feel free to reach out at <a href="mailto:zoe.hughes@community.isunet.edu">zoe.hughes@community.isunet.edu</a>.</p>
-    </section>
-
-  </div> <!-- End of container -->
-
-<!-- Footer Section -->
+  <!-- Footer -->
   <footer>
     <p>© 2024 FreeyR. Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
   </footer>
-
+  
   <script src="script.js"></script>
 </body>
 </html>
