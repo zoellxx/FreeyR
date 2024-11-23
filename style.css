@@ -14,7 +14,7 @@ html, body {
 /* Main Container */
 .container {
   flex: 1; /* Expand to take all space between header and footer */
-  max-width: 1200px;
+  max-width: 2000px;
   margin: 0 auto;
   border-left: 60px solid #F1EBC8;
   border-right: 60px solid #F1EBC8;
@@ -62,6 +62,7 @@ html, body {
   font-size: 20px;
   padding: 10px;
   transition: color 0.3s ease;
+  margin-right: 60px;
 }
 
 .header-nav a:hover {
@@ -105,13 +106,13 @@ html, body {
 .info-boxes {
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 60px;
   margin-top: 60px;
 }
 
 .info-box {
   flex: 1;
-  max-width: 300px;
+  max-width: 350px;
   padding: 30px;
   border: 20px solid #20C6BD;
   border-radius: 20px;
@@ -122,7 +123,7 @@ html, body {
 .info-box img {
   max-width: 100%;
   height: auto;
-  margin-top: 30px;
+  margin-top: 60px;
   border-radius: 10px;
 }
 
