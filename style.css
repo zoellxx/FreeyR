@@ -1,51 +1,43 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
 }
 
-/* Header Styles */
-.header {
-    text-align: center; /* Center everything in the header */
-    padding: 20px;
-    background-color: #f4f4f4;
+header {
+  background-color: #20C6BD;
+  color: #F1EBC8;
+  padding: 20px;
+  text-align: center;
 }
 
-.logo {
-    max-width: 150px; /* Resize logo if necessary */
-    height: auto;
-    margin-bottom: 10px;
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
 }
 
-.smaller-title {
-    font-size: 1.2em;
-    font-weight: bold; /* Bold font */
-    font-style: italic; /* Italicized font */
-    color: #333; /* Adjust color if needed */
+nav a:hover {
+  text-decoration: underline;
 }
 
-/* Map Section Styles */
-.map-section {
-    padding: 20px;
-    background-color: #fafafa;
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
 }
 
-.map-section h2 {
-    text-align: center; /* Center the section heading */
-    font-size: 1.5em;
-    margin-bottom: 15px;
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  color: #666;
 }
 
-.map-container {
-    display: flex;
-    justify-content: center; /* Center the map */
-    align-items: center;
+h1, h2 {
+  margin-bottom: 1rem;
 }
 
-iframe {
-    width: 80%; /* Make the map responsive */
-    height: 400px;
-    border: 1px solid #ccc;
-}
 
