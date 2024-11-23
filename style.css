@@ -1,0 +1,41 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
