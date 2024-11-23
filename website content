@@ -1,0 +1,144 @@
+my-website/
+│
+├── index.html         # Main HTML file
+├── style.css          # CSS file for styling
+├── script.js          # Optional JavaScript file
+└── assets/            # Folder for images or additional resources
+    └── logo.png
+
+###
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FreeyR>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Introducing FreeyR</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Interactive Map</a>
+      <a href="#contact">Satellite Data Information</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>What is FreeyR?</h2>
+    <p>Facilitating Resilience of coastal Ecosystems of blah blah blah </p>
+  </section>
+
+  <section id="projects">
+    <h2>Interactive Map</h2>
+    <ul>
+      <li><a href="#">Project 1</a></li>
+      <li><a href="#">Project 2</a></li>
+      <li><a href="#">Project 3</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out at <a href="mailto:zoe.hughes@community.isunet.edu">zoe.hughes@community.isunet.edu</a>.</p>
+  </section>
+
+  <footer>
+    <p>© 2024 FreeyR. Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My GitHub Pages Website</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Website</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>This is a simple website hosted on GitHub Pages. You can write about yourself here!</p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <ul>
+      <li><a href="#">Project 1</a></li>
+      <li><a href="#">Project 2</a></li>
+      <li><a href="#">Project 3</a></li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Feel free to reach out at <a href="mailto:your-email@example.com">your-email@example.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>© 2024 Your Name. Hosted on <a href="https://pages.github.com/">GitHub Pages</a>.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+###
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  color: #333;
+}
+
+header {
+  background-color: #4CAF50;
+  color: white;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+section {
+  padding: 2rem;
+  border-bottom: 1px solid #ddd;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  color: #666;
+}
+
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
