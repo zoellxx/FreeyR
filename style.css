@@ -11,7 +11,6 @@ body {
 .container {
   max-width: 1200px;  /* Max width for the content */
   margin: 0 auto;  /* Center the container */
-  padding: 0 2rem;  /* Add padding to the left and right */
   border-left: 60px solid #F1EBC8; /* Left border */
   border-right: 60px solid #F1EBC8; /* Right border */
 }
