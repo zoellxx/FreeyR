@@ -13,6 +13,7 @@ body {
   margin: 0 auto;  /* Center the container */
   border-left: 60px solid #F1EBC8; /* Left border */
   border-right: 60px solid #F1EBC8; /* Right border */
+  background-color: transparent; /* Make the container transparent */
 }
 
 /* Header Section */
@@ -64,7 +65,7 @@ section h2 {
 }
 
 section p {
-  font-size: 2.4em;
+  font-size: 1.2em;
   line-height: 1.6;
   color: #654B37;
 }
