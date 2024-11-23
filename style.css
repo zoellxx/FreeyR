@@ -1,25 +1,39 @@
-/* General Reset */
-body, html, h1, h2, h3, p, a {
-  margin: 0;
-  padding: 0;
+/* General Styles */
+html, body {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  height: 100%; /* Make html and body fill the viewport height */
+  background-color: #F1EBC8; /* Background color for the page */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Arrange content in a column layout */
+  color: #654B37; /* Default text color */
   font-family: Arial, sans-serif;
-  text-decoration: none;
-  color: #654B37;
-  box-sizing: border-box;
+  line-height: 1.6;
+}
+
+/* Main Container */
+.container {
+  flex: 1; /* Expand to take all space between header and footer */
+  max-width: 1200px;
+  margin: 0 auto;
+  border-left: 60px solid #F1EBC8;
+  border-right: 60px solid #F1EBC8;
+  background-color: transparent;
 }
 
 /* Header Bar */
 .header-bar {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  background-color: #FACB74;
-  padding: 0 20px;
+  justify-content: space-between; /* Space between logo and nav links */
+  background-color: #654B37;
+  padding: 1rem 20px;
   height: 60px;
   position: fixed;
   top: 0;
   width: 100%;
   z-index: 1000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
 }
 
 /* Logo */
@@ -38,11 +52,11 @@ body, html, h1, h2, h3, p, a {
 .header-nav {
   display: flex;
   gap: 15px;
-  margin-right: 60px; /* Added margin to ensure links stay within bounds */
+  margin-right: 20px; /* Ensure proper spacing on larger screens */
 }
 
 .header-nav a {
-  color: #20C6BD;
+  color: #F1EBC8;
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
@@ -58,8 +72,9 @@ body, html, h1, h2, h3, p, a {
 .main-header {
   margin-top: 60px; /* Push down to account for fixed header */
   text-align: center;
-  padding: 20px;
-  background-color: #E17A55;
+  padding: 60px;
+  background-color: #654B37;
+  color: #F1EBC8;
 }
 
 .brand-image {
@@ -68,13 +83,14 @@ body, html, h1, h2, h3, p, a {
 }
 
 .smaller-title-1 {
-  margin-top: 20px;
-  color: #654B37;
+  margin-top: 60px;
+  color: #F1EBC8;
   font-size: 36px;
   line-height: 1.5;
-  align-items: center;
   text-transform: uppercase;
   font-weight: bold;
+  font-style: italic;
+  margin-bottom: 60px;
 }
 
 /* About Section */
@@ -93,8 +109,8 @@ body, html, h1, h2, h3, p, a {
 .info-box {
   flex: 1;
   max-width: 300px;
-  padding: 15px;
-  border: 1px solid #FACB74;
+  padding: 30px;
+  border: 20px solid #20C6BD;
   border-radius: 20px;
   background-color: #F1EBC8;
   text-align: center;
@@ -112,6 +128,16 @@ footer {
   background-color: #654B37;
   color: #F1EBC8;
   text-align: center;
-  padding: 10px 20px;
-  margin-top: 20px;
+  padding: 20px;
+  margin-top: auto; /* Ensures the footer stays at the bottom */
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+
+footer a {
+  color: #FACB74;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
