@@ -107,9 +107,9 @@ html, body {
   flex: 1;
   max-width: 350px;
   padding: 30px;
-  border: 20px solid #20C6BD;
+  border: 10px solid #20C6BD;
   border-radius: 20px;
-  background-color: #F1EBC8;
+  background-color: #FACB74;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -119,8 +119,8 @@ html, body {
 
 /* Box Image Styling */
 .info-box img {
-  width: 150px; /* Set a fixed width for uniform size */
-  height: 150px; /* Set a fixed height for uniform size */
+  width: 400px; /* Set a fixed width for uniform size */
+  height: 200px; /* Set a fixed height for uniform size */
   object-fit: cover; /* Ensures the image fits while maintaining aspect ratio */
   margin-bottom: 10px; /* Space between the image and the caption */
   border-radius: 10px;
