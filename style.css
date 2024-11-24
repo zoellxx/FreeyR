@@ -71,16 +71,18 @@ html, body {
 
 /* Main Header Section */
 .main-header {
-  margin-top: 60px; /* Push down to account for fixed header */
+  margin-top: 60px; /* Push down to account for the fixed header */
   text-align: center;
-  padding: 60px;
+  padding: 60px 0; /* 60px top and bottom, 0 on sides */
   background-color: #E17A55;
-  color: #F1EBC8
+  color: #F1EBC8;
 }
 
 .brand-image {
   max-width: 100%;
   height: auto;
+  display: block;
+  margin: 0 auto; /* Center the brand image */
 }
 
 .smaller-title-1 {
@@ -100,6 +102,16 @@ html, body {
   padding: 60px;
   text-align: center;
   font-size: 24px;
+}
+
+
+/* Info Box Section */
+.info-box-container {
+  display: flex;
+  justify-content: center; /* Center the boxes horizontally */
+  gap: 30px; /* Add 30px spacing between boxes */
+  margin-top: 60px;
+  flex-wrap: wrap; /* Ensure responsiveness if there’s insufficient space */
 }
 
 /* Info Box Container */
